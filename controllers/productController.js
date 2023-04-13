@@ -4,7 +4,7 @@ const ApiError = require('../error/ApiError');
 
 class ProductController {
 
-  //Create product
+  // Create product
 
   async create(req, res, next) {
     try {
@@ -17,7 +17,7 @@ class ProductController {
     }
   }
 
-  //Get all products
+  // Get all products
 
   async getAll(req, res) {
     try {

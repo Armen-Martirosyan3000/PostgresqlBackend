@@ -14,7 +14,7 @@ const generateJwt = (id, email, role) => {
 
 class UserController {
 
-    //Rregistration user
+    // Rregistration user
 
     async registration(req, res, next) {
         const { email, password, role } = req.body
@@ -31,7 +31,7 @@ class UserController {
         return res.json({ token })
     }
 
-    //Login user
+    // Login user
 
     async login(req, res, next) {
         const { email, password } = req.body
